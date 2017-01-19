@@ -1,3 +1,4 @@
+html { height: 100%; }
 
 .clear	{
 		clear: both;
@@ -46,11 +47,38 @@ li 		{
 
 
 body {
-	background: "images/Light-Grey-Background.jpg";
+	background-image: url("../images/Light-Grey-Background.jpg");
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height];
 	}		
 
+#imageDiv {
+	float: left;
+}
+
+#aboutP1 {
+	float: right;
+}
+
+#aboutp2 {
+
+}
 
 #aboutContainer {
+		padding: 10px;
+		text-align: center;
+		margin-left: 100px;
+		width: 650px;
+		background-color: #ffffff;
+		float: left;
+		margin-right: 175px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		border: dashed 1px;
+}
+
+#contactContainer {
+		padding: 10px;
 		margin-left: 100px;
 		width: 650px;
 		background-color: #ffffff;
@@ -60,7 +88,13 @@ body {
 		border: dashed 1px;
 }
 
-#contactContainer {
+p {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+#portfolioContainer {
+		padding: 10px;
 		margin-left: 100px;
 		width: 650px;
 		background-color: #ffffff;
@@ -71,13 +105,13 @@ body {
 }
 
 #Sidebar{
+		padding: 10px 0 10px 0;
 		text-align: center;
 		width: 220px;
 		float: right;
 		background-color: #ffffff;
-		margin-right: 210px;
+		margin-right: 200px;
 		border: dashed 1px;
-
 		}
 
 footer {
@@ -88,5 +122,8 @@ footer {
 		padding: 20px;
 		height: 30px;
 		border-top: solid 4px #4aaaa5;
+ 	    position: absolute; 
+	    left: 0 ; right: 0; bottom: 0; 
+	    height:[footer-height] 
 		}
 

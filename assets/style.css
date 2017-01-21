@@ -115,28 +115,46 @@ p1 {
 
 #folio1 {
 		float: left;
+		height: 200px;
+		width: 300px;
+		text-align:  center;
 		margin: 10px 5px 10px 0px;
+		background-image: url("../images/folioPic1.jpg");
 }
 
 #folio2 {
 		float: right;
+		height: 200px;
+		width: 300px;
+		text-align:  center;
 		margin: 10px 0px 10px 5px;
+		background-image: url("../images/folioPic2.jpg");
 }
 
 #folio3 {
 		float: left;
+		height: 200px;
+		width: 300px;
+		text-align:  center;
 		margin: 10px 5px 10px 0px;		
+		background-image: url("../images/folioPic3.jpg");
 }
 
 #folio4 {
 		float: right;
+		height: 200px;
+		width: 300px;
+		text-align:  center;
 		margin: 10px 0px 10px 5px;
-}
+		background-image: url("../images/folioPic4.jpg");}
 
 #folio5 {
 		float: left;
+		height: 200px;
+		width: 300px;
+		text-align:  center;
 		margin: 10px 5px 10px 0px;
-}
+		background-image: url("../images/folioPic5.jpg");}
 
 footer {
 		clear: both;

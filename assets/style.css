@@ -146,7 +146,8 @@ p1 {
 		width: 300px;
 		text-align:  center;
 		margin: 10px 0px 10px 5px;
-		background-image: url("../images/folioPic4.jpg");}
+		background-image: url("../images/folioPic4.jpg");
+	}
 
 #folio5 {
 		float: left;
@@ -154,7 +155,13 @@ p1 {
 		width: 300px;
 		text-align:  center;
 		margin: 10px 5px 10px 0px;
-		background-image: url("../images/folioPic5.jpg");}
+		background-image: url("../images/folioPic5.jpg");
+	}
+
+.imageText {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}	
 
 footer {
 		clear: both;
